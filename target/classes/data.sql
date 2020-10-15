@@ -1,0 +1,10 @@
+insert into category (description) values ('American');
+insert into category (description) values ('Mexican');
+insert into unit_of_measure (description) values ('Pint');
+insert into unit_of_measure (description) values ('Cup');
+insert into unit_of_measure (description) values ('Teaspoon');
+insert into unit_of_measure (description) values ('Each');
+insert into unit_of_measure (description) values ('Tablespoon');
+insert into unit_of_measure (description) values ('Dash');
+-- insert into notes (id,recipe_notes) values(1,'test');
+-- insert into recipe (image,notes_id) values(file_read('C:\Users\Tomas\eclipse-workspace\recipe-project\src\main\resources\static\tacos400x400.jpg'),1);
