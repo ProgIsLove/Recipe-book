@@ -1,3 +1,10 @@
+create database sfg_dev;
+
+create user 'sfg_dev_user'@'localhost' identified by 'tom';
+ 
+grant all on sfg_dev.* to 'sfg_dev_user'@'localhost';
+
+
 create table category (id bigint not null auto_increment, description varchar(255), primary key (id)) engine=InnoDB
 create table ingredient (id bigint not null auto_increment, amount decimal(19,2), description varchar(255), recipe_id bigint, uom_id bigint, primary key (id)) engine=InnoDB
 create table notes (id bigint not null auto_increment, recipe_notes longtext, recipe_id bigint, primary key (id)) engine=InnoDB
